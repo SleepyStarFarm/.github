@@ -13,6 +13,6 @@ runs:
   steps:
     - uses: Sleepy-Star-Farm/.github/actions/checkout@dev
     - name: Set up .NET Environment...
-      uses: actions/setup-dotnet@v3
+      uses: actions/setup-dotnet@v4
       with:
         source-url: ${{ inputs.REGISTRY }}
