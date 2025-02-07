@@ -5,6 +5,10 @@ description: 'Custom Docker Setup Workflow'
 runs:
   using: 'composite'
   steps:
-    - uses: Sleepy-Star-Farm/.github/actions/checkout@dev
+    - uses: Sleepy-Star-Farm/.github/actions/docker/login@dev
+    # Add support for more platforms with QEMU (optional)
+    # https://github.com/docker/setup-qemu-action
+    - name: Set up QEMU...
+      uses: docker/setup-qemu-action@v3
     - name: Set up Docker Environment...
       uses: docker/setup-buildx-action@v3

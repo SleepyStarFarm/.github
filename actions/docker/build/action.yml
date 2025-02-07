@@ -31,7 +31,7 @@ inputs:
 runs:
   using: 'composite'
   steps:
-    - uses: Sleepy-Star-Farm/.github/actions/docker/login@dev
+    - uses: Sleepy-Star-Farm/.github/actions/docker/setup@dev
       with:
         REGISTRY: ${{ inputs.REGISTRY }}
         USERNAME: ${{ inputs.USERNAME }}
