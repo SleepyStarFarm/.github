@@ -22,7 +22,7 @@ inputs:
 runs:
   using: 'composite'
   steps:
-    - uses: Sleepy-Star-Farm/.github/actions/node/setup@dev
+    - uses: SleepyStarFarm/.github/actions/node/setup@dev
       with:
         NODE_VERSION: ${{ inputs.NODE_VERSION }}
         REGISTRY: ${{ inputs.REGISTRY }}

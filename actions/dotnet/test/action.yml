@@ -15,7 +15,7 @@ inputs:
 runs:
   using: 'composite'
   steps:
-    - uses: Sleepy-Star-Farm/.github/actions/dotnet/build@dev
+    - uses: SleepyStarFarm/.github/actions/dotnet/build@dev
       with:
         REGISTRY: ${{ inputs.REGISTRY }}
         SOLUTION: ${{ inputs.SOLUTION }}

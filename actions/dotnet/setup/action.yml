@@ -11,7 +11,7 @@ inputs:
 runs:
   using: 'composite'
   steps:
-    - uses: Sleepy-Star-Farm/.github/actions/checkout@dev
+    - uses: SleepyStarFarm/.github/actions/checkout@dev
     - name: Set up .NET Environment...
       uses: actions/setup-dotnet@v4
       with:

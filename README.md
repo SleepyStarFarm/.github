@@ -1,1 +1,1 @@
-Organization-wide default files for all `Sleepy-Star-Farm/*` repositories.
+Organization-wide default files for all `SleepyStarFarm/*` repositories.

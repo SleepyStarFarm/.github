@@ -22,7 +22,7 @@ inputs:
 runs:
   using: 'composite'
   steps:
-    - uses: Sleepy-Star-Farm/.github/actions/checkout@dev
+    - uses: SleepyStarFarm/.github/actions/checkout@dev
     - name: Set up Node Environment...
       uses: actions/setup-node@v4
       env:
